@@ -24,7 +24,7 @@ Keypad keypad = Keypad(makeKeymap(keys), rowPins, colPins, rows, cols);
 
 //initialize an Joystick with 16 buttons;
 Joystick_ Joystick(JOYSTICK_DEFAULT_REPORT_ID,
-                   JOYSTICK_TYPE_GAMEPAD, 16, 0,
+                   JOYSTICK_TYPE_JOYSTICK, 16, 0,
                    false, false, false, false, false, false,
                    false, false, false, false, false);
 
